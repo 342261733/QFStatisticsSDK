@@ -1,0 +1,6 @@
+framework module QFStatistics {
+  umbrella header "QFStatistics.h"
+
+  export *
+  module * { export * }
+}
