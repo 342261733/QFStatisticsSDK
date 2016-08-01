@@ -22,7 +22,7 @@ pod "QFStatistics"
 
 ## Author
 
-QFPayShadowMan, xunianqiang@qfpay.com
+Semyon, xunianqiang@qfpay.com
 
 ## License
 
