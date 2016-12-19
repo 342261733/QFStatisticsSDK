@@ -62,6 +62,10 @@
  */
 + (void)event:(NSString *)eventId serverSendTime:(double)serverSendTime;
 
+/** 自定义事件,推送时长统计,增加param
+ */
++ (void)event:(NSString *)eventId serverSendTime:(double)serverSendTime attributes:(NSDictionary *)attributes;
+
 
 // ***************************************************************************************
 // 注意：以下设置的参数必须在设置eventId方法之前调用，否则将记录到下次的eventId中。
